@@ -17,8 +17,13 @@
   align-items: center;
 }
 
+.container{
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
 .content{
-  margin-top: 100px;
+  /* margin-top: 100px; */
   min-width: 751px;
   height: 489px;
   background-color: var(--green);
