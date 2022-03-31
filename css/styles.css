@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root{
+  --background: #E5E5E5;
+  --green: #6FCF97;
+  --black: #000000;
+}
+
+.dflex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  margin-top: 100px;
+  min-width: 751px;
+  height: 489px;
+  background-color: var(--green);
+}
+
+.text-content{
+  width: 293px;
+  height: 116px;
+}
+
+.text{
+ font-size: 48px;
+ text-align: center;
+}
